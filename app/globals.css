@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+:root {
+  --color-burgundy: #7B1F3A;
+  --color-gold: #C9A84C;
+  --color-cream: #FAF5E4;
+  --color-slate: #1C1C2E;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-slate);
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.btn-primary {
+  background-color: var(--color-burgundy);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  transition: opacity 0.2s;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-primary:hover {
+  opacity: 0.85;
+}
+
+.btn-secondary {
+  background-color: var(--color-gold);
+  color: var(--color-slate);
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  transition: opacity 0.2s;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-secondary:hover {
+  opacity: 0.85;
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 1.5rem;
+}
